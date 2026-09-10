@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f4f7f8;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* ENCABEZADO */
+.encabezado {
+  background-color: #002F6C;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.encabezado h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.encabezado p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.contenedor {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+/* TARJETA DEL FORMULARIO */
+.formulario-card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.formulario-card h2 {
+  margin-bottom: 20px;
+  color: #002F6C;
+}
+
+.grupo {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #002F6C;
+}
+
+.boton-enviar {
+  background-color: #ffb400;
+  color: #002F6C;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s ease;
+}
+
+.boton-enviar:hover {
+  background-color: #e6a200;
+}
+
+.mensaje-confirmacion {
+  margin-top: 14px;
+  font-weight: 600;
+  color: #1a7a2f;
+  text-align: center;
+}
+
+/* PIE DE PÁGINA */
+.pie {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+  color: #777;
+}
